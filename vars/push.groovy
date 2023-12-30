@@ -1,3 +1,3 @@
 def call(){
-    sh 'apt install docker.io -y | docker run -itd -p node |docker ps'
+    sh 'sudo apt install docker.io -y |sudo  docker run -itd -p node |sudo docker ps'
 }
