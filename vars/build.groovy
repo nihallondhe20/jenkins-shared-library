@@ -1,3 +1,3 @@
-def install(){
+def call(){
     sh 'ls'
 }

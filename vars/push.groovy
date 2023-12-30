@@ -1,3 +1,3 @@
 def call(){
-    sh 'docker run -itd -p node'
+    sh 'docker run -itd -p ubuntu'
 }
