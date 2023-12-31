@@ -1,3 +1,3 @@
 def call(){
-    sh 'ls'
+    sh 'git clone https://github.com/nihallondhe20/simple-node.git'
 }

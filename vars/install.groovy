@@ -1,3 +1,3 @@
 def call(){
-    sh ''
+    sh 'sudo docker build -t node ./simple-node/'
 }
