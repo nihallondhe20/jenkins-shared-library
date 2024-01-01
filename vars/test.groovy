@@ -1,3 +1,3 @@
 def call(){
-    sh ' sudo docker tag node nihalsdocker/nodejs:$timestamp'
+    sh ' sudo docker tag node nihalsdocker/nodejs:$tag'
 }   
