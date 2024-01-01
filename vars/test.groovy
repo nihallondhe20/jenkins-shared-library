@@ -1,3 +1,3 @@
 def call(){
-    sh "sudo docker tag node:latest nihalsdocker/nodejs:$version"
+    sh "sudo docker tag javac:latest nihalsdocker/java:$version"
 }   
