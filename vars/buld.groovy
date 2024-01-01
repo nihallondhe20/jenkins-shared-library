@@ -1,3 +1,3 @@
 def call(){
-    sh "sudo docker build -t node /var/lib/jenkins/workspace/shared-libs/$FILENAME/"
+    sh "sudo docker build -t javac ./$FILENAME/"
     }
