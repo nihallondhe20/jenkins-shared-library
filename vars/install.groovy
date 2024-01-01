@@ -1,3 +1,5 @@
 def call(){
-    sh 'sudo rm -rf *|  git clone https://github.com/nihallondhe20/simple-node.git '
+    sh '[ -e "./simple-node" ] || git clone https://github.com/nihallondhe20/simple-node.git'
 }
+
+
