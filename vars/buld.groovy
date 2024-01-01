@@ -1,3 +1,3 @@
 def call(){
-    sh 'sudo docker build -t node ./simple-node/Dockerfile'
+    sh 'sudo docker build -t node /var/lib/jenkins/workspace/shared-libs/simple-node/'
     }
