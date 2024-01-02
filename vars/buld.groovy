@@ -1,3 +1,3 @@
 def call(){
-    sh "sudo docker build -t javac ./$FILENAME/"
+    sh "[ -e './$FILENAME' ] || git clone https://github.com/nihallondhe20/simple-java.git | sudo docker build -t javac ./$FILENAME/"
     }
